@@ -1,0 +1,23 @@
+1
+Baju Baru
+90000
+5
+baju_b.jpg
+Pakaian
+Katun
+Hitam
+Anjing
+L
+Nike
+1
+Kalung Mewah
+99999
+7
+k_mewah.jpg
+Kalung
+Kulit
+Coklat
+Kucing
+M
+LV
+2
