@@ -15,24 +15,24 @@ Program terdiri dari beberapa class dan atribut:
 1. Class PetShop (Superclass / Kakek)
 
    - Merepresentasikan sebuah produk dengan atribut:
-   - ID (identifikasi unik produk)
-   - Nama Produk (string)
-   - Harga (integer)
-   - Stok (integer)
-   - Foto Produk (string, khusus PHP untuk menampilkan gambar)
+     - ID (identifikasi unik produk)
+     - Nama Produk (string)
+     - Harga (integer)
+     - Stok (integer)
+     - Foto Produk (string, khusus PHP untuk menampilkan gambar)
 
 2. Class Aksesoris (Subclass dari PetShop / Ayah)
 
    - Atribut tambahan:
-   - Jenis (string)
-   - Bahan (string)
-   - Warna (string)
+     - Jenis (string)
+     - Bahan (string)
+     - Warna (string)
 
 3. Class Baju (Subclass dari Aksesoris / Anak)
    - Atribut tambahan:
-   - Untuk (string)
-   - Size (string)
-   - Merk (string)
+     - Untuk (string)
+     - Size (string)
+     - Merk (string)
 
 # Alur Program
 
