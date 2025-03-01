@@ -2,6 +2,10 @@
 
 Saya Trian Tisna Athalla dengan NIM 2001408 mengerjakan Tugas Praktikum 2 dalam mata kuliah Desain dan Pemrograman Berorientasi Objek untuk keberkahanNya maka saya tidak melakukan kecurangan seperti yang telah dispesifikasikan. Aamiin.
 
+# Class Diagram
+
+![Image](https://github.com/user-attachments/assets/d375c41a-cb27-468a-99a2-18fe1a1b2945)
+
 # Desain Program
 
 Program ini merupakan sistem manajemen produk untuk toko hewan peliharaan (PetShop) yang dapat dijalankan dalam empat bahasa pemrograman: C++, Java, Python, dan PHP. Program ini berfungsi untuk menampilkan daftar produk dengan atribut tertentu dan mendukung penyimpanan serta pengolahan data dalam berbagai bentuk.
@@ -9,8 +13,8 @@ Program ini merupakan sistem manajemen produk untuk toko hewan peliharaan (PetSh
 Program terdiri dari beberapa class dan atribut:
 
 1. Class PetShop (Superclass / Kakek)
-   Merepresentasikan sebuah produk dengan atribut:
 
+   - Merepresentasikan sebuah produk dengan atribut:
    - ID (identifikasi unik produk)
    - Nama Produk (string)
    - Harga (integer)
@@ -18,18 +22,17 @@ Program terdiri dari beberapa class dan atribut:
    - Foto Produk (string, khusus PHP untuk menampilkan gambar)
 
 2. Class Aksesoris (Subclass dari PetShop / Ayah)
-   Atribut tambahan:
 
+   - Atribut tambahan:
    - Jenis (string)
    - Bahan (string)
    - Warna (string)
 
-3. Class Baju (Subclass dari Aksesoris)
-   Atribut tambahan:
-
-- Untuk (hewan target, misalnya anjing/kucing)
-- Size (ukuran pakaian)
-- Merk (merek produk)
+3. Class Baju (Subclass dari Aksesoris / Anak)
+   - Atribut tambahan:
+   - Untuk (string)
+   - Size (string)
+   - Merk (string)
 
 # Alur Program
 
